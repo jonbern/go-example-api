@@ -1,0 +1,14 @@
+# Executable file
+/example-api
+
+# Webstorm idea
+.idea
+
+# Visual Studio Compiled
+.vscode
+
+# MacOS
+.DS_Store
+
+# dotenv environment variables file
+.env
