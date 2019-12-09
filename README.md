@@ -5,13 +5,13 @@
 
 It includes many of the features necessary for most `RESTful` API such as:
 - Basic routing (using the `github.com/gorilla/mux` router).
-- `JWT` token authorization (and a `CLI` for generating tokens during development).
+- `JWT` token authorization (including a Makefile rule for generating tokens during development: `make token`).
 - Database back-end using the `database/sql` package for storing and retrieving data.
 - Middleware for tracking requests using correlation IDs.
 - Various middleware for logging, setting content-type, CORS headers etc.
 - Database migrations for defining the initial database schema, and enabling future schema changes to be checked-in to source control, and applied as necessary.
 - `E2E` (End-2-End) tests for black-box and acceptance testing.
-- Convenience scripts for starting the API in a dev setting, and for running tests.
+- Simple `Makefile` for starting the API (`make start`), running tests (`make test`) and generating JWT tokens (`make token`)
 - Go Modules for managing third party dependencies
 - Basic `Dockerfile` for streamlined deployments
 
