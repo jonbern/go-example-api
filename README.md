@@ -18,6 +18,7 @@ It includes many of the features necessary for most `RESTful` API such as:
 ## Requirements
 - `Go` version 1.11 or later (due to [Go Modules](https://github.com/golang/go/wiki/Modules))
 - `MySQL`/`MariaDB`
+- `make` (on Windows use [nmake](https://docs.microsoft.com/en-us/cpp/build/reference/nmake-reference?view=vs-2019))
 
 NOTE: This template uses `MySQL`/`MariaDB` as a database back-end, but this can be changed by modifying the implementation in `model.go` to use another database that meets your needs and preferences.
 
