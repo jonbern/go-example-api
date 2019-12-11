@@ -11,7 +11,7 @@ It includes many of the features necessary for most `RESTful` API such as:
 - Various middleware for logging, setting content-type, CORS headers etc.
 - Database migrations for defining the initial database schema, and enabling future schema changes to be checked-in to source control, and applied as necessary.
 - `E2E` (End-2-End) tests for black-box and acceptance testing.
-- Simple `Makefile` for starting the API (`make start`), running tests (`make test`) and generating JWT tokens (`make token`)
+- Simple `Makefile` for starting the API (`make run`), running tests (`make test`) and generating JWT tokens (`make token`)
 - Go Modules for managing third party dependencies
 - Basic `Dockerfile` for streamlined deployments
 

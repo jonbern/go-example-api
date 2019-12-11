@@ -1,7 +1,7 @@
 MAIN_CMD=example-api
 
-.PHONY: start
-start:
+.PHONY: run
+run:
 	go run ./cmd/$(MAIN_CMD)
 
 build:
