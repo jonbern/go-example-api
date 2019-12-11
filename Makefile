@@ -2,7 +2,7 @@ MAIN_CMD=example-api
 
 .PHONY: run
 run:
-	go run ./cmd/$(MAIN_CMD)
+	go run -race ./cmd/$(MAIN_CMD)
 
 build:
 	go build ./cmd/$(MAIN_CMD)
